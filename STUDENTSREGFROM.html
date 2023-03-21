@@ -1,0 +1,266 @@
+<html>
+    <title>
+        <head>
+        </head>
+    </title>
+    <center><h1>STUDENT REGISTRATION FORM</h1></center>
+    <style>
+        *{
+            background-color:#a39c9c;
+            font-style: oblique;
+
+        }
+      table
+        { 
+            font-family:'Times New Roman';
+            color: #000;
+            text-align-last: left;
+           
+         }
+        h1{
+            font: optical sizing 100% ;
+        }
+        body{border-color: red green blue;
+        }
+        
+    </style>
+    <script>
+       function fun() 
+       {  
+            alert("submitted successfully");  
+       }  
+ 
+    </script>
+    <body>
+    <form>
+        <table style=" border: 5px solid black;margin-left:auto;margin-right:auto;">
+            <tr>
+                <td> FIRST NAME: </td>
+                <td>&nbsp;</td>
+            <td><input type=" first name"  required> </td>
+                </tr>
+            <tr>
+                <td> LAST NAME:</td>
+                <td>&nbsp;</td>
+            <td><input type=" last name"  required> </td>
+            </tr>
+            <tr>
+                <td>FATHER'S NAME:</td>
+                <td>&nbsp;</td>
+            <td><input type=" father's name"  required> </td>
+            </tr>
+            <tr>
+                <td>MOTHER'S NAME:</td>
+                <td>&nbsp;</td>
+            <td><input type=" mother's name"  required> </td>
+            </tr>
+            <tr>
+                <td>EMAIL ID:</td>
+                <td>&nbsp;</td>
+            <td><input type=" email id"  required> </td>
+            </tr>
+            <tr>
+                <td>PHONE NUMBER:</td>
+                <td>&nbsp;</td>
+               <td><select>
+                    <option>+91</option>
+                </select>
+            <input type="phone number" required></td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH:</td>
+                <td>&nbsp;</td>
+            <td><select  name="birthday_day" id="birthday_day">
+            <option value="0">day:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            </select>
+         
+             <select name="birthday_month " id="birthday_month">
+                <option value="0">month:</option>
+                <option value="january">Jan:</option>
+                <option value="February">Feb:</option>
+                <option value="March">March:</option>
+                <option value="April">April:</option>
+                <option value="May">may:</option>
+                <option value="June">June:</option>
+                <option value="July">July:</option>
+                <option value="September">sep:</option>
+                <option value="October">Oct:</option>
+                <option value="November">nov:</option>
+                <option value="December">dec:</option>
+             </select>
+
+             <select name="Birthday_Year " id="Birthday_Year">
+                <option value="0">Year:</option>
+                <option value="1993">1993:</option>
+                <option value="1994">1994:</option>
+                <option value="1995">1995:</option>
+                <option value="1996">1996:</option>
+                <option value="1997">1997:</option>
+                <option value="1998">1998:</option>
+                <option value="1999">1999:</option>
+                <option value="2000">2000:</option>
+                <option value="2001">2001:</option>
+                <option value="2002">2002:</option>
+                <option value="2003">2003:</option>
+             </select>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    GENDER:
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                   male <input type="radio" id="gender" value="Male"/>
+                   female <input type="radio" id="gender" value="female"/>
+                </td>
+               </tr>
+               <tr>
+                <td>ADDRESS:</td>
+                <td>&nbsp;</td>
+                <td><textarea rows="4" column="90"  required></textarea></td>
+               </tr>
+               <tr>
+                <td>NATIONALITY:</td>
+                <td>&nbsp;</td>
+                 <td><select><option>SELECT:</option>
+                 <option>INDIA</option>
+                 <option>RUSSIA</option>
+                </select></td><br>
+            </tr>
+            <tr>
+                <td>STATE:</td>
+                <td>&nbsp;</td>
+                 <td><select><option>SELECT:</option>
+                 <option>TAMILNADU</option>
+                 <option>KERALA</option>
+                 <option>KARNATAKA</option>
+                </select></td><br>
+            </tr>
+            <tr>
+                <td>CITY:</td>
+                <td>&nbsp;</td>
+                 <td><select><option>SELECT:</option>
+                 <option>CHENNAI</option>
+                 <option>COIMBATORE</option>
+                 <option>MADURAI</option>
+                 <option>TRICHY</option>
+                 <option>TIRUPUR</option>
+                 <option>ERODE</option>
+                 <option>VELLORE</option>
+                 <option>KARAKUDI</option>
+                 <option>THIRUNELVELI</option></select></td><br>
+            </tr>
+            <tr>
+                <td>PIN_CODE:</td>
+                <td>&nbsp;</td>
+                <td><input type="name" text="Pin_Code"    required/>( 6 digit number)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HOBBIES:
+                </td>
+                <td>&nbsp;</td>
+               <td> drawing<input type="checkbox" id="drawing" onclick="checkClickFunc()" value="drawing"/>
+                singing<input type="checkbox" id="singing" value="singing"/>
+                playing<input type="checkbox" id="playing" value="playing"/>
+                reading<input type="checkbox" id="reading" value="reading"/>
+            </td>
+            <tr>
+                <td>COURSES:</td>
+                <td>&nbsp;</td>
+                <td>
+                   B.sc<input type="radio" name="Course_BSc" value="bsc"/>
+                   bca<input type="radio" name="Course_BCA" value="bca"/>
+                   ba<input type="radio" name="Course_BA" value="ba"/>
+                   msc<input type="radio" name="Course_MSC" value="msc"/>
+                 </td>
+            </tr>
+            <tr><td>QUALIFICATION:</td></tr>
+            <td>
+                    <tr>
+                       <td style="text-align: center"><b>s.no</b></td>
+                        <td style="text-align: center"><b>Examination</b></td>
+                        <td style="text-align: center"><b>Board</b></td>
+                        <td style="text-align: center"><b>Percentage</b></td>
+                        <td style="text-align: center"><b>Year of Passing</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>ClassX</td>
+                       <td> <input type="text" name="ClassX_Board" required></td>
+                       <td><input type="text" name="ClassX_Percentage" required></td> 
+                        <td><input type="text" name="ClassX_YrOfPassing" required></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>ClassXI</td>
+                        <td><input type="text" name="ClassXI_Board" required></td>
+                        <td><input type="text" name="ClassXI_Percentage" required></td>
+                        <td><input type="text" name="ClassXI_YrOfPassing" required></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>ClassXII</td>
+                        <td><input type="text" name="ClassXII_Board" required></td>
+                        <td><input type="text" name="ClassXII_Percentage"required></td>
+                        <td><input type="text" name="ClassXII_YrOfPassing" required></td>
+                    </tr>
+                    <tr>
+                        <td>4
+                        </td>
+                        <td>Graduation</td>
+                        <td><input type="text" name="GRADUATION_Board" required></td>
+                        <td><input type="text" name="GRADUATION_Percentage" required></td>
+                        <td><input type="text" name="GRADUATION_YrOfPassing"required></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Masters</td>
+                        <td><input type="text" name="Masters_Board" required></td>
+                        <td><input type="text" name="Masters_Percentage"  required></td>
+                        <td><input type="text" name="Masters_YrOfPassing"  required></td>
+                    </tr>
+                   
+                   <tr> <td>
+                     <id="submit" >
+                    <button onclick = "fun()">submit</button>
+                     <id="cancel">
+                   <button onclick="getElementById('cancel').innerHTML=Date()">cancel</button>  
+                </td></tr>
+             </table>
+     </form>
+    </body>
+</html>
